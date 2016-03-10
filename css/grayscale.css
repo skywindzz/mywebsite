@@ -17,6 +17,11 @@ html {
     height: 100%;
 }
 
+.tony-test {
+    border-radius: 50%;
+}
+
+
 h1,
 h2,
 h3,
@@ -100,7 +105,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: #1aa278;
     background-color: transparent;
 }
 
@@ -119,7 +124,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #1aa278;
 }
 
 @media(min-width:768px) {
@@ -164,7 +169,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .intro .intro-body .intro-text {
@@ -267,9 +272,9 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    color: #000;
+    background: url() no-repeat center center scroll;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -373,4 +378,15 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.comment-content {
+    width: 420px;
+    border: none;
+    padding: 10px 5px 10px 5px; 
+}
+
+.comment-review {
+    font-size: 15px;
+    font-family: Helvetica Neue;
 }
