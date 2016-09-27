@@ -17,10 +17,6 @@ html {
     height: 100%;
 }
 
-.tony-test {
-    border-radius: 50%;
-}
-
 
 h1,
 h2,
@@ -265,9 +261,6 @@ a:focus {
     }
 }
 
-.content-section {
-    padding-top: 50px;
-}
 
 .download-section {
     width: 100%;
@@ -402,3 +395,40 @@ body {
     height: 350px;
     margin: 0 auto;
 }
+
+.guide {
+    color: #1aa278;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+    color: #1d9b6c;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+}
+
+.tony-test {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.comment-review {
+    color: #1aa278;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size : 20px;
+}
+
+.middle-comment-borders {
+    border:0 1px 0 1px ;
+    border-left-color: #1d9b6c;
+    border-right-color: #1d9b6c;
+}
+
+.carousel-inner {
+    margin: 0 auto;
+    width: 900px;
+    height: 300px;
+}
+
