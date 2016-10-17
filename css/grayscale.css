@@ -421,9 +421,13 @@ body {
 }
 
 .middle-comment-borders {
-    border:0 1px 0 1px ;
-    border-left-color: #1d9b6c;
-    border-right-color: #1d9b6c;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: #42dca3;
+    border-right-color: #42dca3;
 }
 
 .carousel-inner {
@@ -431,4 +435,5 @@ body {
     width: 1000px;
     height: 500px;
 }
+
 
